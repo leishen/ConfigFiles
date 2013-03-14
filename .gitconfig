@@ -1,0 +1,42 @@
+[user]
+    name = Greg Ambler
+    email = gca101+github@gmail.com
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset - %aN' --abbrev-commit --date=relative
+    simple = log --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset - %aN' --abbrev-commit --date=relative --simplify-by-decoration 
+    diff = diff --color
+    co = checkout
+    ct = checkout -t
+    ci = commit -v
+    ca = commit -av
+    st = status -sb
+    up = pull
+    track = !git-track
+    prune-all = !git-prune-all
+[branch]
+    autosetupmerge = true
+[push]
+    default = tracking
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow 
+    remote = red
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+    renamed = pink
+[core]
+    autocrlf = false
+    eof = lf
+    whitespace = blank-at-eol,space-before-tab,blank-at-eof,

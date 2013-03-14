@@ -21,4 +21,4 @@ au BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") |   exe "normal
 syntax on
 au BufRead *.c \
     set cindent
-    set comment=sr:/*,mb:*,ex:*/
+    set comments=sr:/*,mb:*,ex:*/

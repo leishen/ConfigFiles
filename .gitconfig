@@ -1,6 +1,6 @@
 [user]
-    name = Greg Ambler
-    email = gca101+github@gmail.com
+    name = Greg
+    email = 
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset - %aN' --abbrev-commit --date=relative
     simple = log --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset - %aN' --abbrev-commit --date=relative --simplify-by-decoration 

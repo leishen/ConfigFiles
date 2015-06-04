@@ -13,6 +13,7 @@
     up = pull
     track = !git-track
     prune-all = !git-prune-all
+    origin = remote -v
 [branch]
     autosetupmerge = true
 [push]

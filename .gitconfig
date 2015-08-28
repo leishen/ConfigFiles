@@ -14,6 +14,8 @@
     track = !git-track
     prune-all = !git-prune-all
     origin = remote -v
+    cleanup = clean -fdx
+    revert = reset --hard HEAD
 [branch]
     autosetupmerge = true
 [push]
